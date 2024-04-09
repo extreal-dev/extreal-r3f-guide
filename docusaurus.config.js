@@ -9,7 +9,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Extreal R3F",
-  tagline: "Extreal R3F Guide",
+  tagline: "React Three Fiber(R3F) のナレッジとリファレンス",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -25,13 +25,14 @@ const config = {
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
+  trailingSlash: true,
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: "ja",
+    locales: ["ja"],
   },
 
   presets: [
@@ -74,7 +75,7 @@ const config = {
         items: [
           {
             href: "/",
-            label: "Extreal",
+            label: "Extreal R3F",
             position: "left",
           },
           {
@@ -124,15 +125,6 @@ const config = {
               },
             ],
           },
-          // {
-          //   title: "Used by",
-          //   items: [
-          //     {
-          //       label: "BURALIT",
-          //       href: "https://www.buralit.com/",
-          //     },
-          //   ],
-          // },
           {
             title: "Legal",
             items: [
