@@ -25,7 +25,7 @@ R3F を使った開発では、React はもちろん、TypeScript、Three.js の
 
 ### JavaScript Primer
 
-React を学ぶには JavaScript の言語知識が必須です。 JavaScript を触れたことがない人は、まずは JavaScript の知識習得からお願いします。
+React を学ぶには JavaScript の言語知識が必須です。 JavaScript を触れたことがない人は、まずは JavaScript の知識習得から始めましょう。
 
 [JavaScript Primer](https://jsprimer.net/)は、JavaScript の文法や機能を一から学べるサイトです。「第一部：基本文法」までの知識があれば、ひとまず充分です。[基本文法の目次](https://jsprimer.net/basic/)を見てわからないことがあれば学習してください。
 
