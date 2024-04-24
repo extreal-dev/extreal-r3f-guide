@@ -35,7 +35,7 @@ sidebar_position: 5
 │  └─pages                  ... ページ単位（basicの組み合わせ）
 │      ├─AvatarSelect         ... アバター選択
 │      ├─ErrorPage            ... エラーページ
-│      ├─InSpot               ... スポット内画面
+│      ├─InSpot               ... スポット訪問画面
 │      └─SpotSelect           ... スポット選択画面
 ├─generated               ... バックエンドのAPIの自動生成コード
 ├─hooks                   ... カスタムReactフック
