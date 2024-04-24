@@ -159,10 +159,10 @@ const MultiplayChannel = (props: MultiplayChannelProps) => {
 };
 ```
 
-MultiplayChannelComponent 内で、メッセージ受信の処理（`useDataChannel`の２番目引数のコールバック関数）が`useMultiplayChannelStore`から取得した`channel`にレスポンスをキューするように実装されています。  
+MultiplayChannelComponent 内で、メッセージ受信の処理（`useDataChannel`の 2 番目引数のコールバック関数）が`useMultiplayChannelStore`から取得した`channel`にレスポンスをキューするように実装されています。  
 また、useEffect 内で同じく`channel`のキューを監視して、デキューして送信(LiveKit の`send`)をするように実装されています。
 
-このように、`channel`をキューとすることで、send と ReceivedDataMessage を受け取るコールバックが１つのコンポーネント内に書けるため、見通しが良くなります。そうしない場合は、送信関数の外部コンポーネントへの引き回しや受信のコールバックを外から指定できるようにすることが必要になります。
+このように、`channel`をキューとすることで、send と ReceivedDataMessage を受け取るコールバックが 1 つのコンポーネント内に書けるため、見通しが良くなります。そうしない場合は、送信関数の外部コンポーネントへの引き回しや受信のコールバックを外から指定できるようにすることが必要になります。
 
 ```tsx
 export type MultiplayChannelComponentProps = {
