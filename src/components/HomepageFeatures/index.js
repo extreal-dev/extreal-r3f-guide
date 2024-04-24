@@ -25,7 +25,7 @@ const FeatureList = [
     description: (
       <>
         <Translate id="homepage.helpful-example">
-          360度画像や360度球体動画の再生、バックエンドのAPIとの疎通、Zustandを使った状態管理、LiveKitを使ったマルチプレイといった実用的なサンプルアプリケーションとその作り方の解説を公開しています。
+          360度画像や360度動画の再生、バックエンドのAPIとの疎通、Zustandを使った状態管理、LiveKitを使ったマルチプレイといった実用的なサンプルアプリケーションとその作り方の解説を公開しています。
         </Translate>
         <div>
           <b>
