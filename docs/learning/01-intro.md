@@ -64,6 +64,7 @@ Three.js は、WebGL を使用して Web ブラウザで 3D コンピュータ�
 - [Three.js 公式サイト](https://threejs.org/)
   - [examples](https://threejs.org/examples/)
   - [Fundamentals - three.js manual](https://threejs.org/manual/#en/fundamentals)
+  - [Three.js journey](https://threejs-journey.com/) コースは有料です
 
 ### React Three Fiber
 
