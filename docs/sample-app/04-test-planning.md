@@ -26,9 +26,8 @@ sidebar_position: 4
 
 - テスト方法
   - 手動テスト
-  - テストケース
 - 合格基準
-  - 全件合格、テストカバレッジ 100％
+  - 全件合格
 
 ## Data compatibility test
 
@@ -42,9 +41,8 @@ sidebar_position: 4
 
 - テスト方法
   - Chrome,Edge,Safari での手動構成テスト
-  - テストケース
 - 合格基準
-  - 全件合格、テストカバレッジ 100％
+  - 全件合格
 
 ## Security test
 
