@@ -293,7 +293,7 @@ const VideoSphere = (props: VideoSphereProps) => {
 };
 ```
 
-### Multiplay with LiveKit
+### LiveKit を使ったマルチプレイ
 
 サンプルアプリケーションでのマルチプレイはコンポーネント(`<MultiplayChannel>`)とキューのストア(`useMultiplayChannelStore`)の 2 つの部品から構成されています。
 マルチプレイを有効にするためには、次の例のように `<MultiplayChannel>` を使います。
