@@ -23,7 +23,7 @@ sidebar_position: 5
 │  │  ├─Avatar                ... アバター
 │  │  ├─AvatarSelect          ... アバター選択
 │  │  ├─IconMenu              ... アイコンメニュー
-│  │  ├─ImageSphere           ... 360度画像球体表示
+│  │  ├─ImageSphere           ... 360度画像の球体表示
 │  │  ├─Multiplay             ... マルチプレイ用コンポーネント
 │  │  ├─Player                ... プレイヤー（自分）
 │  │  ├─RemotePlayer          ... リモートプレイヤー
@@ -192,7 +192,8 @@ const ImageSphere: React.FC<ImageSphereProps> = (props: ImageSphereProps) => {
 
 ### Video Sphere & Hidden Video による 360 度動画の表示
 
-360 度動画の表示は、ビデオを非表示で再生する`<HiddenVideo>`コンポーネントと、360 度球体で表示する`<VideoSphere>`から構成されます。
+360 度動画の表示は、ビデオを非表示で再生する`<HiddenVideo>`コンポーネントと、360 度球体で表示する`<VideoSphere>`から構成されます。  
+構成が分かれている理由は、球体にビデオを表示するためには、技術的にビデオの再生中のテクスチャを球体にマップする必要があるためです。`<HiddenVideo>`では html 要素の`<video>`タグを利用して見えない動画を再生し、`<VideoSphere>`ではそのテクスチャを球体にマップしています。
 
 利用する際は、次のように実装します。
 
