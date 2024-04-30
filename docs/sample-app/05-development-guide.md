@@ -171,6 +171,8 @@ const useSpots = () => {
 export default useSpots;
 ```
 
+Orval を使った自動生成の詳細については、Fintan の記事「[React Query と OpenAPI 定義ファイルからのコード自動生成ツール Orval を使った Web アプリケーション開発](https://fintan.jp/page/4857/)」を参考にすると良いでしょう。
+
 ### Image Sphere による 360 度画像の表示
 
 `<ImageSphere>`コンポーネントは、360 度画像を球体に表示します。
