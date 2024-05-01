@@ -51,6 +51,11 @@ SpotVisit では、以下の非機能要件を想定しています。
       - Chrome, Edge
     - Mac
       - Safari
+  - スマホ ブラウザ
+    - Android
+      - Chrome
+    - iOS
+      - Safari
   - インターネット回線
     - 上り/下り 40Mbps 以上
 - 利用人数
