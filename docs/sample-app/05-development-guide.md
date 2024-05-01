@@ -41,7 +41,7 @@ sidebar_position: 5
 ## 状態管理
 
 コンポーネントの状態を管理するのに、通常の React の Context と State 以外に、[Zustand](https://github.com/pmndrs/zustand) という状態管理ライブラリを使って複数のコンポーネントにまたがる状態を管理しています。
-Zustand では、状態と状態変更関数をセットで管理でき、内部の状態をカプセル化することができます。
+Zustand では、状態と状態変更関数をセットで管理でき、内部の状態をカプセル化することができます。Zustand の使い方の詳細は、[ここ](../learning/02-state-management-with-zustand.md)を参照ください。
 
 次のように使い分けています。
 
