@@ -9,29 +9,30 @@ import { themes as prismThemes } from "prism-react-renderer";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Extreal R3F",
-  tagline: "Extreal R3F Guide",
+  tagline: "React Three Fiber(R3F) を使ったXRのリファレンス",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://extreal-dev.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: "/extreal-r3f-guide",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "extreal-dev", // Usually your GitHub org/user name.
+  projectName: "extreal-r3f-guide", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
+  trailingSlash: true,
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: "ja",
+    locales: ["ja"],
   },
 
   presets: [
@@ -41,17 +42,9 @@ const config = {
       ({
         docs: {
           sidebarPath: "./sidebars.js",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -70,11 +63,12 @@ const config = {
         logo: {
           alt: "Fintan Logo",
           src: "img/fintan-logo.jpg",
+          href: "https://fintan.jp",
         },
         items: [
           {
             href: "/",
-            label: "Extreal",
+            label: "Extreal R3F",
             position: "left",
           },
           {
@@ -124,15 +118,6 @@ const config = {
               },
             ],
           },
-          // {
-          //   title: "Used by",
-          //   items: [
-          //     {
-          //       label: "BURALIT",
-          //       href: "https://www.buralit.com/",
-          //     },
-          //   ],
-          // },
           {
             title: "Legal",
             items: [
